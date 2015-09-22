@@ -1,0 +1,58 @@
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+
+	id		= "com.membership.nse"
+versionCode="35"
+	version 	= "1.0.0"> 
+ 
+	<name>Nigerian Society Of Engineers</name> 
+ 
+	<description> 
+Membership App for NSE.	<author href="http://www.chams.com"
+
+		email="info@chams.com"> 
+		Chams Plc
+	</author>
+</description>
+  
+  
+
+  <icon src="images/icon.png" gap:platform="android" gap:density="ldpi" />
+  <icon src="images/icon.png" gap:platform="android" gap:density="mdpi" />
+  <icon src="images/icon.png" gap:platform="android" gap:density="hdpi" />
+  <icon src="images/icon.png" gap:platform="android" gap:density="xhdpi" />
+  <gap:splash src="images/splash.jpg" gap:platform="android" gap:density="ldpi" />
+  <gap:splash src="images/splash.jpg" gap:platform="android" gap:density="mdpi" />
+  <gap:splash src="images/splash.jpg" gap:platform="android" gap:density="hdpi" />
+  <gap:splash src="images/splash.jpg" gap:platform="android" gap:density="xhdpi" />
+  
+  
+  
+  <icon src="images/iconWP62.png" gap:platform="winphone" />
+  <icon src="images/iconWP173.png" gap:platform="winphone" gap:role="background" />
+  <gap:splash src="images/splashWP480.jpg" gap:platform="winphone" />
+
+ 
+  <access origin="http://cloud.chams.com" />
+  <access origin="http://localhost" />
+
+  <access origin="*" />
+
+  <preference name="stay-in-webview" value="true" />
+  <preference name="phonegap-version" value="3.2.0" />
+  <preference name="load-url-timeout" value="200000" />
+  
+  
+	<feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+<feature name="http://api.phonegap.com/1.0/device"/>
+	<preference name="orientation" value="portrait" /> 
+        <preference name="target-device" value="universal" /> 
+</widget>
